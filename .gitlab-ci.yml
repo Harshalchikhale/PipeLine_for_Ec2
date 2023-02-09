@@ -6,5 +6,9 @@ my webapp project:
     - node server.js &
     - sleep 5
     - echo "webapp started.."
+<<<<<<< HEAD
     - curl http://localhost:3000/data | grep welcome
+=======
+    - curl http://localhost:3000/data 
+>>>>>>> 6ab8133429246ea2f870f502c7dbf3234e148917
 
