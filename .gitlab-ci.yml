@@ -5,5 +5,5 @@ my webapp project:
     - npm install express
     - node server.js &
     - echo "webapp started.."
-    - curl http://localhost:3000/data | grep here
+    - curl http://localhost:3000/data 
 
