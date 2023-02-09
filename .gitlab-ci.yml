@@ -4,6 +4,7 @@ my webapp project:
   script:
     - npm install express
     - node server.js &
+    - sleep 5
     - echo "webapp started.."
-    - curl http://localhost:3000/data | grep here
+    - curl http://localhost:3000/data | grep welcome
 
