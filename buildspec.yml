@@ -7,4 +7,6 @@ my webapp project:
     - sleep 10
     - echo "webapp started.."
     - curl http://localhost:3000/data | grep -i welcome
-
+    - yum install httpd -y
+    - sudo systemctl start httpd
+    
